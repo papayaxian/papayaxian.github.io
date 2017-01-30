@@ -1,0 +1,75 @@
+h1{
+  font-family: menlo;
+  font-style: bold;
+  font-size: 60px;
+  color: #3A3A3A;
+  padding: 230px;
+}
+
+.container{
+background-color:#e2f0f3;
+padding-top: 100px;
+padding-bottom: 50px;
+
+}
+
+.mac-container{
+  position: relative;
+  width:70%;
+  margin:0 auto;
+}
+ .mac-container .mac{
+   width:100%;
+ }
+ img{
+   display: block;
+ }
+.site-box{
+/*border: 1px solid red;*/
+width: 93%;
+height: 62%;
+overflow-x: hidden;
+overflow-y: scroll;
+position: absolute;
+top: 0;
+margin-left: 3.5%;
+margin-top: 3.5%;
+}
+  .site-box img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+* { box-sizing: border-box; }
+.carousel {
+  background-color: #f6edec;
+  padding: 100px;
+}
+
+.wiki{
+  transform: scale(0.4);
+}
+.google{
+  transform: scale(0.4);
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  height: 200px;
+  font-size: 80px;
+  color: white;
+  padding-top: 50px;
+}
+
+
+
+iframe{
+width: 70%;
+height: 650px;
+padding: 100px;
+}
